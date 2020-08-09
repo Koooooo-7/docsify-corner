@@ -1,12 +1,8 @@
 # docsify-corner
 
-<p align="center">
-    <a href="https://docsify.js.org">
-        <img alt="docsify" src="https://github.com/docsifyjs/docsify/raw/develop/docs/_media/icon.svg">
-    </a>
-</p>
+![docsify](https://github.com/docsifyjs/docsify/raw/develop/docs/_media/icon.svg)
 
-*A `docsify` plugin for corner configuration· enhancement based on [Docsify repo configuration](https://docsify.js.org/#/configuration?id=repo).*
+*A [Docsify](https://docsify.js.org/) plugin for corner configuration enhancement based on [Docsify repo configuration](https://docsify.js.org/#/configuration?id=repo).*
 
 - [x] support more icon. ( `Gitlab`...etc）
 - [x] support customized image（`png`、`jpg`、`gif`）.
