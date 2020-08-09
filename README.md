@@ -13,7 +13,7 @@
 
 ### Import
 
-Import the one of the script in `index.html`.
+Import one of the script in `index.html`.
 
 ```html
 <script src="//cdn.jsdelivr.net/npm/docsify-corner/dist/docsify-corner.js"></script>
@@ -38,9 +38,12 @@ Options:
 
 Current support default corner.
 
-- [x] `Github`
-- [x] `Gitlab`
-- [x] `Spring`
+| Name     | icon   |
+| -------- | ------ |
+| `Github` | github |
+| `Gitlab` | gitlab |
+| `Spring` | spring |
+| `Golang` | golang |
 
 
 
