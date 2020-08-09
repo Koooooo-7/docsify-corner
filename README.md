@@ -1,10 +1,9 @@
 # docsify-corner
 
-
 <p align="center">
-  <a href="https://docsify.js.org">
-    <img alt="docsify" src="https://github.com/docsifyjs/docsify/blob/develop/docs/_media/icon.svg">
-  </a>
+    <a href="https://docsify.js.org">
+        <img alt="docsify" src="https://github.com/docsifyjs/docsify/raw/develop/docs/_media/icon.svg">
+    </a>
 </p>
 
 *A `docsify` plugin for corner configuration· enhancement based on [Docsify repo configuration](https://docsify.js.org/#/configuration?id=repo).*
@@ -15,8 +14,6 @@
 [![](https://data.jsdelivr.com/v1/package/npm/docsify-corner/badge)](https://www.jsdelivr.com/package/npm/docsify-corner)
 
 ## Usage
-
-
 
 ### Import
 
@@ -30,7 +27,7 @@ Import the one of the script in `index.html`.
 <script src="//cdn.jsdelivr.net/npm/docsify-corner/dist/docsify-corner.min.js"></script>
 ```
 
-## Configuration
+### Configuration
 
 Options:
 
@@ -41,7 +38,7 @@ Options:
 | width  | the width of the customized image.  |
 | height | the height of the customized image. |
 
-### Use the preset icons
+#### Use the preset icons
 
 Current support default corner.
 
@@ -67,7 +64,7 @@ Current support default corner.
 
 ---
 
-### Use the customized image
+#### Use the customized image
 
 You can set your own  image in the corner.
 
@@ -89,7 +86,7 @@ You can set your own  image in the corner.
 
 ---
 
-## Contribution
+### Contribution
 
 It is hard to adjust the icon to fit the corner to me, so If you wanna add more preset icons, welcome !
 
@@ -99,14 +96,14 @@ Steps :
 
 - Folk it !
 - Install dependencies `npm run install`.
-- Create your feature branch: `git checkout -b my-new-feature`
-- Commit your changes: `git commit -am 'Add some feature'`
-- Push to the branch: `git push origin my-new-feature`
+- Create your feature branch: `git checkout -b my-new-feature`.
+- Commit your changes: `git commit -am 'Add some feature'.`
+- Push to the branch: `git push origin my-new-feature`.
 - Submit a pull request.
 
 ---
 
-## License
+### License
 
 MIT [@Koy](https://github.com/Koooooo-7)
 
