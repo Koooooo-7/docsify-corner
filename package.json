@@ -1,0 +1,39 @@
+{
+  "name": "docsify-corner",
+  "version": "1.0.0",
+  "description": "A plugin for setting corner of docsify.",
+  "main": "dist/docsify-corner.js",
+  "author": {
+    "name": "Koy",
+    "url": "https://github.com/Koooooo-7"
+  },
+  "homepage": "https://github.com/Koooooo-7/docsify-corner#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koooooo-7/docsify-corner.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "standard",
+    "pretty": "standard --fix",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "docsify",
+    "plugin",
+    "corner",
+    "docsift-plugin",
+    "docsify-corner"
+  ],
+  "standard": {
+    "ignore": [
+      "dist/*"
+    ]
+  },
+  "devDependencies": {
+    "rollup": "^1.31.1",
+    "uglify-js": "^3.3.20",
+    "standard": "^14.3.1"
+  }
+}
