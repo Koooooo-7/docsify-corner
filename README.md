@@ -9,6 +9,14 @@
 
 [![](https://data.jsdelivr.com/v1/package/npm/docsify-corner/badge)](https://www.jsdelivr.com/package/npm/docsify-corner)
 
+
+
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/33706142/89785634-4e3ff300-db4d-11ea-9eb5-16ae5e1512ee.png" alt="gitlab" width=45%/>
+    &emsp;&emsp;
+    <img src="https://i.loli.net/2020/08/10/iEWkLXpRCSAv1IN.gif" alt="customer gif" width=45%/>
+</div>
+
 ## Usage
 
 ### Import
@@ -36,14 +44,14 @@ Options:
 
 #### Use the preset icons
 
-Current support default corner.
+Current support default corner types.
 
-| Name     | icon   |
-| -------- | ------ |
-| `Github` | github |
-| `Gitlab` | gitlab |
-| `Spring` | spring |
-| `Golang` | golang |
+| Support Icon Type | Icon argument |
+| ----------------- | ------------- |
+| `Github`          | github        |
+| `Gitlab`          | gitlab        |
+| `Spring`          | spring        |
+| `Golang`          | golang        |
 
 
 
@@ -87,7 +95,7 @@ You can set your own  image in the corner.
 
 ### Contribution
 
-It is hard to adjust the icon to fit the corner to me, so If you wanna add more preset icons, welcome !
+It is hard to adjust the icon to fit the corner, so If you wanna add more preset icons, welcome **star** and **fork**!
 
 This the current [svg icon resources](https://gitlab.com/gitlab-org/gitlab-svgs)  I m working on.
 
