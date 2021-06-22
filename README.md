@@ -42,7 +42,7 @@ Options:
 | width      | the width of the customized image.  |
 | height     | the height of the customized image. |
 | color      | the color of the icon.(Optional)    |
-| background | the background color of the customized image.(Optional) |
+| background | the background color of the customized icon.(Optional) |
 
 
 #### Use the preset icons
