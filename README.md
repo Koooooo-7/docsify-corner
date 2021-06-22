@@ -35,12 +35,15 @@ Import one of the script in `index.html`.
 
 Options:
 
-| Option | Description                         |
-| ------ | ----------------------------------- |
-| icon   | the icon you want show the corner.  |
-| url    | the url for corner link to.         |
-| width  | the width of the customized image.  |
-| height | the height of the customized image. |
+| Option     | Description                         |
+| ------     | ----------------------------------- |
+| icon       | the icon you want show the corner.  |
+| url        | the url for corner link to.         |
+| width      | the width of the customized image.  |
+| height     | the height of the customized image. |
+| color      | the color of the icon.(Optional)    |
+| background | the background color of the customized image.(Optional) |
+
 
 #### Use the preset icons
 
@@ -95,7 +98,7 @@ You can set your own  image in the corner.
 
 ### Contribution
 
-It is hard to adjust the icon to fit the corner, so If you wanna add more preset icons, welcome **star** and **fork**!
+It is hard to adjust the icon to fit the corner, if you wanna add more preset icons, welcome **star** and send a **PR**!
 
 This the current [svg icon resources](https://gitlab.com/gitlab-org/gitlab-svgs)  I m working on.
 

@@ -8,7 +8,11 @@ const cornerOptions = {
   // the repo url
   url: '',
   // the icon name/url
-  icon: ''
+  icon: '',
+  // the corner background color, default false to use default color
+  background: false,
+  // the icon color, default false to use default color
+  color: false
 }
 
 function corner (hook, vm) {
@@ -21,6 +25,16 @@ function corner (hook, vm) {
     const a = document.querySelector('a.github-corner')
     a.href = cornerOptions.url || ' '
     a.innerHTML = getIcon(cornerOptions)
+    // icon color config
+    const cl = document.querySelector('.github-corner svg')
+
+    if (cl && cornerOptions.background) {
+      cl.style.setProperty('fill', cornerOptions.background)
+    }
+
+    if (cl && cornerOptions.color) {
+      cl.style.setProperty('color', cornerOptions.color)
+    }
   })
 }
 
