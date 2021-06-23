@@ -105,7 +105,7 @@ This the current [svg icon resources](https://gitlab.com/gitlab-org/gitlab-svgs)
 Steps :
 
 - Folk it !
-- Install dependencies `npm run install`.
+- Install dependencies `npm install`.
 - Create your feature branch: `git checkout -b my-new-feature`.
 - Commit your changes: `git commit -am 'Add some feature'.`
 - Push to the branch: `git push origin my-new-feature`.
