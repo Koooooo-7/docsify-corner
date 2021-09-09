@@ -4,8 +4,9 @@
 
 *A [Docsify](https://docsify.js.org/) plugin for corner configuration enhancement based on [Docsify repo configuration](https://docsify.js.org/#/configuration?id=repo).*
 
-- [x] support more icon. ( `Gitlab`...etc）
+- [x] support more icon ( `Gitlab`...）.
 - [x] support customized image（`png`、`jpg`、`gif`）.
+- [x] support more settings（`tooltip`、`color`）.
 
 [![](https://data.jsdelivr.com/v1/package/npm/docsify-corner/badge)](https://www.jsdelivr.com/package/npm/docsify-corner)
 
@@ -41,8 +42,9 @@ Options:
 | url        | the url for corner link to.         |
 | width      | the width of the customized image.  |
 | height     | the height of the customized image. |
-| color      | the color of the icon.(Optional)    |
-| background | the background color of the customized icon.(Optional) |
+| color      | the color of the icon.    |
+| background | the background color of the customized icon. |
+| title      | the text of the title attribute is displayed as a tooltip. |
 
 
 #### Use the preset icons
@@ -76,7 +78,7 @@ Current support default corner types.
 
 #### Use the customized image
 
-You can set your own  image in the corner.
+You can set your own image in the corner.
 
 ```html
 <script>
@@ -100,7 +102,7 @@ You can set your own  image in the corner.
 
 It is hard to adjust the icon to fit the corner, if you wanna add more preset icons, welcome **star** and send a **PR**!
 
-This the current [svg icon resources](https://gitlab.com/gitlab-org/gitlab-svgs)  I m working on.
+This the current [svg icon resources](https://gitlab.com/gitlab-org/gitlab-svgs)  I' m working on.
 
 Steps :
 
