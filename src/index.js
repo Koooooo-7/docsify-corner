@@ -9,6 +9,8 @@ const cornerOptions = {
   url: '',
   // the icon name/url
   icon: '',
+  // the text of the title attribute is displayed as a tooltip
+  title: '',
   // the corner background color, default false to use default color
   background: false,
   // the icon color, default false to use default color
@@ -23,8 +25,11 @@ function corner (hook, vm) {
 
   hook.mounted(function () {
     const a = document.querySelector('a.github-corner')
-    a.href = cornerOptions.url || ' '
     a.innerHTML = getIcon(cornerOptions)
+
+    cornerOptions.url && (a.href = cornerOptions.url)
+    cornerOptions.title && (a.title = cornerOptions.title)
+
     // icon color config
     const cl = document.querySelector('.github-corner svg')
 
