@@ -1,6 +1,6 @@
 {
   "name": "docsify-corner",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A plugin for setting corner of docsify.",
   "main": "dist/docsify-corner.js",
   "author": {
