@@ -7,6 +7,8 @@ const cornerOptions = {
   height: '',
   // the repo url
   url: '',
+  // the target, align to site by default
+  target: '',
   // the icon name/url
   icon: '',
   // the text of the title attribute is displayed as a tooltip
@@ -29,6 +31,10 @@ function corner (hook, vm) {
 
     cornerOptions.url && (a.href = cornerOptions.url)
     cornerOptions.title && (a.title = cornerOptions.title)
+
+    if (cornerOptions.target) {
+      a.target = cornerOptions.target
+    }
 
     // icon color config
     const cl = document.querySelector('.github-corner svg')

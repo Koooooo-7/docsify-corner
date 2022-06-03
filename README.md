@@ -40,6 +40,7 @@ Options:
 | ------     | ----------------------------------- |
 | icon       | the icon you want show the corner.  |
 | url        | the url for corner link to.         |
+| target     | the url target for corner link to.  |
 | width      | the width of the customized image.  |
 | height     | the height of the customized image. |
 | color      | the color of the icon.    |
