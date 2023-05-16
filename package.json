@@ -34,6 +34,6 @@
   "devDependencies": {
     "rollup": "^3.21.7",
     "uglify-js": "^3.3.20",
-    "standard": "^14.3.1"
+    "standard": "^17.0.0"
   }
 }
